@@ -43,7 +43,7 @@ export default function AIMentor() {
 
   return (
     <div className="h-[calc(100vh-8rem)] flex flex-col bg-white rounded-3xl border border-slate-100 shadow-xl overflow-hidden">
-      <header className="px-8 py-4 border-bottom border-slate-100 flex justify-between items-center bg-white z-10">
+      <header className="px-8 py-4 border-b border-slate-100 flex justify-between items-center bg-white z-10">
         <div className="flex items-center gap-3">
           <div className="w-10 h-10 bg-primary/10 rounded-xl flex items-center justify-center text-primary">
             <Bot size={24} />
